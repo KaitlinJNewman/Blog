@@ -10,6 +10,11 @@ title: Kaitlin J. Newman
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}/blog-template{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+   <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}/blog-template{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 
   <h1>Mapping Experiences</h1>
   <ul class="posts">
