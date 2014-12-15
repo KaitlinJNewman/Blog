@@ -3,18 +3,6 @@ layout: default
 title: Kaitlin J. Newman
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}/blog-template{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-   <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}/blog-template{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
 
   <h1>Mapping Experiences</h1>
   <ul class="posts">
@@ -24,14 +12,11 @@ title: Kaitlin J. Newman
   <li><span>04 Nov 2014</span> &raquo; <a href="http://www.internal-displacement.org/assets/library/Media/201405-globalOverview-2014/8.-GO-2014-At-a-Glance-Final-Eng.pdf">Forced Migration Stats</a></li>
   <li><span>04 Nov 2014</span> &raquo; <a href="http://www.teachgenocide.org/files/DocsMaps/Map%20of%20the%20Armenian%20Genocide.pdf">Armenian Genocide Map</a></li>
   <li><span>04 Nov 2014</span> &raquo; <a href="/http://lindsayrgwatt.com/blog/2012/09/a-different-way-of-comparing-canada-america/">Canada Product Map</a></li>
-  </ul>
   <li><span>04 Nov 2014</span> &raquo; <a href="http://www.internal-displacement.org/assets/library/Media/201405-globalOverview-2014/13.-201405-map-global-overview-en-01.png">Forced Migration Map 2014</a></li>
-  </ul>
   <li><span>28 Oct 2014</span> &raquo; <a href="/https://twitter.com/MaptimeDC?s=03">DC Maptime</a></li>
   <li><span>28 Oct 2014</span> &raquo; <a href="http://www.vox.com/a/maps-explain-the-middle-east">Maps that explain the Middle East</a></li>
   <li><span>28 Oct 2014</span> &raquo; <a href="http://www.vox.com/2014/10/27/7062921/immigration-1900-race-racism-quotas-eugenics-map-settled-united-states">Detailed Immigration Map of the US 1900</a></li>
   <li><span>28 Oct 2014</span> &raquo; <a href="http://www.vox.com/maps">Great VOX maps</a></li>
-  </ul>
 
 
 <h1>My Maps</h1>
@@ -51,6 +36,18 @@ title: Kaitlin J. Newman
   <li><span>11 Nov 2014</span> &raquo; <a href="http://www.joeydevilla.com/wordpress/wp-content/uploads/2009/10/geomacattack.jpg">USA Light Bright Map</a></li>
   <li><span>11 Nov 2014</span> &raquo; <a href="http://www.hasbro.com/litebrite/en_US/">Interactive Light Brights</a></li>
 
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}/blog-template{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+   <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}/blog-template{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 <!--
   <h1>Prominent Open Source Projects</h1>
   <ul class="posts">
